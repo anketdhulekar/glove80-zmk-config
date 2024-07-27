@@ -19,6 +19,11 @@
 #define MAGIC 2
 #define FACTORY_TEST 3
 
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+};
+
 / {
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
